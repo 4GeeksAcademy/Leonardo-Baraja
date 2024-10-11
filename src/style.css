@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  box-shadow: inset;
+}
+#paloAbajo {
+  rotate: 180deg;
+}
+#numero {
+  font-size: 30vh;
+  color: rgb(0, 0, 0);
+}
+
+.spade {
+  font-size: 10vh;
+  color: black;
+}
+
+/* .club {
+    font-size: 10vh;
+    color: black;
+  }
+  
+  .heart {
+    font-size: 10vh;
+    color: rgb(255, 0, 0);
+  } */
+
+.diamond {
+  font-size: 10vh;
+  color: rgb(255, 0, 0);
+}
