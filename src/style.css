@@ -8,28 +8,29 @@
 }
 #paloAbajo {
   rotate: 180deg;
+  font-size: 15vh;
 }
+
+#paloArriba {
+  font-size: 15vh;
+}
+
 #numero {
-  font-size: 30vh;
+  font-family: "Rubik Mono One", monospace;
+  font-size: 20vh;
   color: rgb(0, 0, 0);
 }
 
-.spade {
-  font-size: 10vh;
-  color: black;
+#generarCarta {
+  background-color: #2d7430;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* .club {
-    font-size: 10vh;
-    color: black;
-  }
-  
-  .heart {
-    font-size: 10vh;
-    color: rgb(255, 0, 0);
-  } */
-
-.diamond {
-  font-size: 10vh;
-  color: rgb(255, 0, 0);
+#generarCarta:hover {
+  background-color: #3ad842;
 }

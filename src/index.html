@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Generador de Cartas ♦ ♥ ♠ ♣</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -13,19 +19,22 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body class="bg-success">
-    <div id="fondo" class="container-fluid text-center pt-5 pb-5">
-      <div class="card col-3 mx-auto position-relative">
+    <div id="fondo" class="container-fluid text-center pt-5">
+      <div class="card col-12 col-md-3 col-sm-12 mx-auto position-relative">
         <div class="position-absolute top-0 start-0">
-          <h1 class="m-5">♦ ♥ ♠ ♣</h1>
+          <h1 id="paloArriba" class="m-3">♣</h1>
         </div>
         <div class="position-absolute top-50 start-50 translate-middle">
-          <h1 id="numero">8</h1>
+          <h1 id="numero">2</h1>
         </div>
 
-        <div id="paloAbajo" class="position-absolute bottom-0 end-0">
-          <h1 class="m-5">♦ ♥ ♠ ♣</h1>
+        <div class="position-absolute bottom-0 end-0">
+          <h1 id="paloAbajo" class="m-3">♣</h1>
         </div>
       </div>
+      <button id="generarCarta" class="mt-5">
+        Generar Nueva Carta
+      </button>
     </div>
   </body>
 </html>
