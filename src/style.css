@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  box-shadow: inset;
+}
+#paloAbajo {
+  rotate: 180deg;
+  font-size: 15vh;
+}
+
+#paloArriba {
+  font-size: 15vh;
+}
+
+#numero {
+  font-family: "Rubik Mono One", monospace;
+  font-size: 20vh;
+  color: rgb(0, 0, 0);
+}
+
+#generarCarta {
+  background-color: #2d7430;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#generarCarta:hover {
+  background-color: #3ad842;
+}
