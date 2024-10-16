@@ -1,26 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-
+/* Estilos para la carta */
 .card {
   height: 70vh;
   background-color: rgb(255, 255, 255);
   border-radius: 5%;
   box-shadow: inset;
 }
+/* El palo de abajo */
 #paloAbajo {
   rotate: 180deg;
   font-size: 15vh;
 }
-
+/* El palo de arriba */
 #paloArriba {
   font-size: 15vh;
 }
-
+/* Estilos para El numero priuncipal de la carta */
 #numero {
   font-family: "Rubik Mono One", monospace;
   font-size: 20vh;
   color: rgb(0, 0, 0);
 }
-
+/* Estilos para el boton de generar carta */
 #generarCarta {
   background-color: #2d7430;
   color: white;
@@ -30,7 +31,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+/* Estilos del boton cuando el raton pasa por encima */
 #generarCarta:hover {
   background-color: #3ad842;
 }
