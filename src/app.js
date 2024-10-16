@@ -21,7 +21,7 @@ const numeros = [
   "Q",
   "K"
 ];
-
+generarCarta();
 function inicializar() {
   document.getElementById("generarCarta").onclick = generarCarta;
 }
